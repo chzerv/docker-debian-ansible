@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:testing
 MAINTAINER Xristos Zervakis
 
 ENV DEBIAN_FRONTEND noninteractive
