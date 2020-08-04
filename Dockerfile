@@ -1,5 +1,5 @@
 FROM debian:unstable
-MAINTAINER Xristos Zervakis
+LABEL maintainer Xristos Zervakis
 
 ENV DEBIAN_FRONTEND noninteractive
 
