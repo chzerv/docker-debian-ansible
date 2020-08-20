@@ -1,6 +1,7 @@
 # Container image: Debian Ansible
 
 [![Build Status](https://travis-ci.com/chzerv/docker-debian-ansible.svg?branch=master)](https://travis-ci.com/chzerv/docker-debian-ansible)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chzerv/docker-debian-ansible)
 
 This Dockerfile builds a Debian-based container with Ansible and other Ansible testing tools pre-intalled.
 
