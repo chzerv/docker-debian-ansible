@@ -25,7 +25,7 @@ RUN apt-get update \
     rm -f /lib/systemd/system/systemd-update-utmp* \
     rm -rf /lib/systemd/system/multi-user.target.wants/getty.target
 
-RUN pip3 install $ansible_packages
+RUN pip3 install --no-cache $ansible_packages
 
 RUN mkdir -p /etc/ansible
 RUN echo -e '[local]\nlocalhost ansible_connection=local' > /etc/ansible/hosts
