@@ -7,12 +7,12 @@ This Dockerfile builds a Debian-based container with Ansible and other Ansible t
 
 # Branches/Tags
 
-|  Branch  | Distribution version | Image tag |
-| :------: | :------------------: | :-------: |
-|  master  |     buster (10)      |  latest   |
-| testing  |       bullseye       |  testing  |
-| unstable |         sid          | unstable  |
-| stretch  |     stretch (9)      |  stretch  |
+| Branch   | Distribution version | Image tag            |
+| :------: | :------------------: | :-------:            |
+| master   | buster (10)          | latest               |
+| testing  | bullseye             | testing              |
+| unstable | sid                  | unstable             |
+| stretch  | stretch (9)          | stretch [deprecated] |
 
 # How to build locally
 

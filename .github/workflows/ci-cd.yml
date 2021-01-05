@@ -4,13 +4,11 @@ name: Build
   pull_request:
     branches:
       - master
-      - stretch
       - testing
       - unstable
   push:
     branches:
       - master
-      - stretch
       - testing
       - unstable
     paths-ignore:
@@ -28,8 +26,6 @@ jobs:
         config:
           - branch: "master"
             tag: "latest"
-          - branch: "stretch"
-            tag: "stretch"
           - branch: "testing"
             tag: "testing"
           - branch: "unstable"
@@ -64,8 +60,6 @@ jobs:
         config:
           - branch: "master"
             tag: "latest"
-          - branch: "stretch"
-            tag: "stretch"
           - branch: "testing"
             tag: "testing"
           - branch: "unstable"
