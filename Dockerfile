@@ -1,6 +1,9 @@
 FROM debian:testing
 LABEL maintainer Xristos Zervakis
 
+# Avoid things that systemd does on actual hardware.
+ENV container docker
+
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install Ansible via pip so we get the latest version.
