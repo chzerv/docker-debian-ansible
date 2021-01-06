@@ -21,7 +21,7 @@ latest version. Pull the branch (version) you are interested in.
 
 1. Install [Docker](https://docs.docker.com/engine/install/) or [Podman](https://podman.io/getting-started/installation.html).
 2. Clone the branch you're interested in. For example, for Debian unstable: `git clone --branch=unstable https://github.com/chzerv/docker-debian-ansible.git`.
-3. `cd` into the directory and run `docker build -t debian10-ansible .`
+3. `cd` into the directory and run `docker build -t debian-unstable-ansible .`
 
 # How to use
 
