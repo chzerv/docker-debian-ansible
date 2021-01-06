@@ -1,5 +1,6 @@
 # Debian (Testing) Image for Ansible Testing
 
+![Build](https://github.com/chzerv/docker-debian-ansible/workflows/Build/badge.svg?branch=testing)
 
 This Dockerfile builds a Debian Testing based container, capable to use `systemd`, with Ansible and Ansible 
 testing tools pre-installed.
