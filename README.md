@@ -1,5 +1,9 @@
 # Debian 10 (Buster) Image for Ansible Testing
 
+>**NOTE**: This image is now  **DEPRECATED**: Use:
+>+ [debian9-systemd-ansible](https://github.com/chzerv/debian9-systemd-ansible)
+>+ [debian10-systemd-ansible](https://github.com/chzerv/debian10-systemd-ansible)
+
 ![Build](https://github.com/chzerv/docker-debian-ansible/workflows/Build/badge.svg?branch=master)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chzerv/docker-debian-ansible)
 
